@@ -14,14 +14,10 @@ for (let contagem = 2; contagem >= 0; contagem--) {
       alert(`Suas tentativas acabaram, o numero correto era ${valorAleatorio}`);
     } else {
       if (valorAleatorio > valorUm) {
-        alert(
-          `Você não acertou, o numero digitado é menor que o numero aleatorio! Voce ainda tem ${contagem} tentativas`
-        );
+        alert(`Você não acertou, o numero digitado é menor que o numero aleatorio! Voce ainda tem ${contagem} tentativas`);
         valorUm = parseInt(prompt("Digite um numero entre 1 a 10"));
       } else {
-        alert(
-          `Você não acertou, o numero digitado é maior que o numero aleatorio! Voce ainda tem ${contagem} tentativas`
-        );
+        alert(`Você não acertou, o numero digitado é maior que o numero aleatorio! Voce ainda tem ${contagem} tentativas`);
         valorUm = parseInt(prompt("Digite um numero entre 1 a 10"));
       }
     }
